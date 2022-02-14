@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 
 const useLocalStorage = () => {
    const [todo,setTodo] = useState(JSON.parse(localStorage.getItem('todo'))|| []);
