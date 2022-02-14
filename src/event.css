@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: auto;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: aqua;
+    flex-grow: 1;
+
+}
+input{
+    height: 40px;
+    width: 400px;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+.outputmain{
+    width: 100vw;
+    height: calc(100vh - 150px);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 15px;
+    padding: 5px;
+    background-color: antiquewhite;
+
+}
+.submain{
+    height: 100px;
+    width: 200px;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+.delete{
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 1px;
+    color: white;
+    background-color: blue;
+}
+.inner{
+    display: flex;
+    gap: 75px;
+}
+button{
+    height: 30px;
+    width: 60px;
+    border-radius: 3px;
+    border: 1px;
+    color: aqua;
+    background-color: black;
+}
+button:hover{
+    background-color: #ff96ad;
+    box-shadow: 0 0 5px #ff96ad,0 0 25px #ff96ad,
+    0 0 50px #ff96ad,0 0 200px #ff96ad;
+}
